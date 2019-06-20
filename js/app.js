@@ -83,3 +83,46 @@ console.log (jimHaff);
 // 	console.log(ninjaTurtles);
 // COME BACK TO THIS
 
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+const kristynsShoe = ()
+kristynsCloset.slice(1);
+//Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! 
+//Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. 
+//Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+const thomsOutfit1 = ["PJs", "grey button-up", "wool mittens"];
+const thomsOutfit2 = ["jeans", "wool scarf", "raybans"];
+const thomsOutfit3 = ["light blue button-up", "grey jeans", "wool scarf"];
+const kristynsOutfit1 = ["right sock", "GA hoodie", "marshmallow peeps"];
+const kristynsOutfit2 = ["yellow knit hat", "cowboy boots", "green pants"];
+const kristynsOutfit3 = ["green pants", "right sock", "marshmallow peeps"];
+
+
