@@ -75,3 +75,11 @@ jimHaff.splice(2);
 jimHaff.push("Buenos Aires", "Denver", "Quito")
 console.log (jimHaff);
 
+//Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+//Use a for loop to call .toUpperCase() on each of them and print out the result.
+
+//const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+// for ninjaTurtles.toUpperCase(0,1,2,3)
+// 	console.log(ninjaTurtles);
+// COME BACK TO THIS
+
