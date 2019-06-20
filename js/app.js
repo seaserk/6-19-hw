@@ -27,9 +27,8 @@ console.log('working');
 
 // If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
 
-for (i = 1; i <= 100; i++){
-	console.log(i);
-}
+for (let i = 1; i <= 100; i++){
+	console.log(`${i}`);
 	if (i % 3 === 0){
 		console.log('Fizz');
 }
@@ -38,7 +37,7 @@ for (i = 1; i <= 100; i++){
 	}
 	if( i % 3 === 0 && i % 5 === 0 ){
 		console.log('FizzBuzz');
-
+}
 }
 // COME BACK TO THIS
 
