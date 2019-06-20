@@ -125,4 +125,16 @@ const kristynsOutfit1 = ["right sock", "GA hoodie", "marshmallow peeps"];
 const kristynsOutfit2 = ["yellow knit hat", "cowboy boots", "green pants"];
 const kristynsOutfit3 = ["green pants", "right sock", "marshmallow peeps"];
 
+//Continue looking at the closet arrays:
 
+// Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
+// Inventory
+// Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
+
+//Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+for(
+    var sum = 0, i = 1;
+    i < 1000;!(i % 3 && i % 5) && (sum += i), i++);
+console.log(sum);
