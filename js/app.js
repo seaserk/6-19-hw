@@ -2,15 +2,15 @@ console.log('working');
 
 //1. Write a for loop that will log the numbers 1 through 20.
 
-for (i = 1; i <= 20; i++){
-	console.log(i);
-}
+// for (i = 1; i <= 20; i++){
+// 	console.log(i);
+//}
 
 //2.Write a for loop that will log only the even numbers in 0 through 200.
 
-for (i = 2; i <= 200; i +=2){
-	console.log(i);
-}
+// for (i = 2; i <= 200; i +=2){
+// 	console.log(i);
+// }
 
 //3. Write code that logs "Love me, pet me! HSSSSSS!" 20 times. For every even number in your loop, log "...human...why you taking pictures of me?...", 
 //"...the catnip made me do it...", or "...why does the red dot always get away..." at random.
@@ -27,18 +27,19 @@ for (i = 2; i <= 200; i +=2){
 
 // If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
 
-// for (i = 1; i <= 100; i++){
-// 	console.log(i);
-// }
-// 	if (i % 3 === 0){
-// 		console.log('Fizz');
-// }
-// 	if (i % 5 === 0){
-// 		console.log('Buzz');
-// 	}
-// 	if(( i % 3 != 0 ) && (i % 5 != 0 )){
-// 		console.log('FizzBuzz');
-// }
+for (i = 1; i <= 100; i++){
+	console.log(i);
+}
+	if (i % 3 === 0){
+		console.log('Fizz');
+}
+	if (i % 5 === 0){
+		console.log('Buzz');
+	}
+	if( i % 3 === 0 && i % 5 === 0 ){
+		console.log('FizzBuzz');
+
+}
 // COME BACK TO THIS
 
 //Jim Clark decides that Kenny can't be named "Kenny" anymore. 
@@ -78,63 +79,65 @@ console.log (jimHaff);
 //Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 //Use a for loop to call .toUpperCase() on each of them and print out the result.
 
-//const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
-// for ninjaTurtles.toUpperCase(0,1,2,3)
-// 	console.log(ninjaTurtles);
-// COME BACK TO THIS
-
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
-
-// Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
-const kristynsShoe = ()
-kristynsCloset.slice(1);
-//Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! 
-//Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. 
-//Use that variable to add Kristyn's lost shoe to Thom's accessories array.
-const thomsOutfit1 = ["PJs", "grey button-up", "wool mittens"];
-const thomsOutfit2 = ["jeans", "wool scarf", "raybans"];
-const thomsOutfit3 = ["light blue button-up", "grey jeans", "wool scarf"];
-const kristynsOutfit1 = ["right sock", "GA hoodie", "marshmallow peeps"];
-const kristynsOutfit2 = ["yellow knit hat", "cowboy boots", "green pants"];
-const kristynsOutfit3 = ["green pants", "right sock", "marshmallow peeps"];
-
-//Continue looking at the closet arrays:
-
-// Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
-// Inventory
-// Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
-
-//Find the sum of all the multiples of 3 or 5 below 1000.
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
+for(var i = 0; i < ninjaTurtles.length; i++){
+	ninjaTurtles[i] = ninjaTurtles[i].toUpperCase();
+	console.log(ninjaTurtles);
+}
 
 
-for(
-    var sum = 0, i = 1;
-    i < 1000;!(i % 3 && i % 5) && (sum += i), i++);
-console.log(sum);
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+// // Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+// const kristynsShoe = ()
+// kristynsCloset.slice(1);
+// //Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! 
+// //Remove Kristyn's shoe from the array and save it to the variable kristynsShoe. 
+// //Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+// const thomsOutfit1 = ["PJs", "grey button-up", "wool mittens"];
+// const thomsOutfit2 = ["jeans", "wool scarf", "raybans"];
+// const thomsOutfit3 = ["light blue button-up", "grey jeans", "wool scarf"];
+// const kristynsOutfit1 = ["right sock", "GA hoodie", "marshmallow peeps"];
+// const kristynsOutfit2 = ["yellow knit hat", "cowboy boots", "green pants"];
+// const kristynsOutfit3 = ["green pants", "right sock", "marshmallow peeps"];
+
+// //Continue looking at the closet arrays:
+
+// // Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array.
+// // Inventory
+// // Thom wants to do inventory on his closet. Using bracket notation, log the arrays (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
+
+// //Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+// for(
+//     var sum = 0, i = 1;
+//     i < 1000;!(i % 3 && i % 5) && (sum += i), i++);
+// console.log(sum);
